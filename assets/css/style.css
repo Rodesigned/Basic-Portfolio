@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #efeee7;
+    font-family: "Georgia",Times New Roman,Times,serif; 
+    color: #333333;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.wrapper{
+	max-width: 100%;
+    margin: auto;
+}
+
+.container {
+    width: 960px;
+    margin: 0;
+	padding: 20px 0px 0px 30px; 
+}
+
+header h1 {
+	position: absolute;
+	width: 250px;
+	height: 70px;
+	padding: 20px;
+	margin-left: 30px;
+	background: #4aaaa5;
+	color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+	z-index: 1000;
+}
+
+nav {
+	width: 100%;
+	margin :0 auto;
+	margin-top: 15px;
+	list-style-type: none;
+}
+
+nav li {
+	float: right;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 12px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 6px;
+	padding-right: 20px;
+	text-align: middle;
+    overflow: hidden;
+	color: #595656;
+    background-color: #FFFFFF;
+}
+
+li a {
+    display: block;
+    color: #504C4C;
+    padding: 16px 16px 16px 16px;
+    text-decoration: none;
+}
+
+#main-bio {
+	float: left;
+	width: 650px;
+	height: 450px;
+	background-color: #FFFFFF;
+}
+
+aside {
+	float: right;
+	padding-left: 10px;
+	width: 270px;
+	height: 200px;
+	background-color: #FFFFFF;
+}
+
+h2 {
+	padding-left: 50px;
+	font-family: "Georgia",Times New Roman,Times,serif;
+	font-size: 21px;
+	padding-top: 20px;
+	color: #4aaaa5;
+}
+
+
+#bio-image {
+	float: left;
+    margin-right: 20px;
+    width: 250px;
+    height: 260px;
+    padding-top: 20px;
+	padding-left: 40px;
+}
+
+p {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-weight: 200;
+	font-size: 16px;
+	line-height: 30px;
+	padding: 16px 16px 16px 40px;
+}
+
+#boxes {
+   	padding: 0px 0px 0px 60px;
+  	margin: 0px 0px 800px 0px;
+  	
+    z-index: 1000;
+}
+
+tiny_icons {	
+	float: left;
+	z-index: 1000;
+	padding: 20px;
+}
+
+#box1 {
+	float: left;
+}
+
+#box2 {
+	float: left; 
+}
+
+#box3{
+	float: left; 
+}
+	
+
+
+
+
